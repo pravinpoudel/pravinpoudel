@@ -1,0 +1,312 @@
+
+
+body , html {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	background-color: #1A1A1A;
+	color: #fff;
+
+}
+
+
+a {
+	color: #fff;
+}
+
+.contact{
+	position: absolute;
+    font-family: 'Rubik', sans-serif;
+    right: 25px;
+    font-size: 19px;
+    top: 60px;
+    z-index: 12;
+}
+
+ a:hover {
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+.logo a:hover {
+	border-bottom: none;
+}
+
+
+
+.logo a  {
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	font-weight: 600;
+	background-color: rgb(235, 28, 37);
+	box-shadow: -1px 15px 30px -12px black;
+	font-size: 20px;
+	padding:15px;
+	color: #fff;
+	z-index: 12;
+
+}
+
+span.call {
+	font-weight: 600;
+}
+
+section {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.second_section {
+	height: 90vh;
+}
+
+.last-section{
+	height: 40vh;
+}
+
+.img_back {
+	position: absolute;
+	top: 100px;
+	opacity: 0.05;
+	z-index: 12;
+
+}
+
+.text-wrapper {
+	position: relative;
+	top: 200px;
+}
+
+
+.big_intro {
+	position: absolute;
+	right: 40px;
+	z-index: 12;
+}
+
+.big_intro h1 {
+	font-size: 145px;
+	z-index: 12;
+}
+
+.small_explain , .me_summary p{
+	/*transform: rotate(-90deg);*/
+	float: left;
+	z-index: 12;
+	font-family: "Inconsolata", monospace ;
+}
+
+.grid_wrapper {
+	position: fixed;
+}
+
+.grid {
+	border-right: 1px solid #000;
+	height: 100vh;
+	transition: height 1.2s ease;
+}
+
+.grid_wrapper .col-sm-3:last-child .grid{
+	border-right: 1px solid #000; 
+	/*border-left: 1px solid #000;*/
+}
+
+.bg-9 {
+	width: 90%;
+}
+
+.centered {
+	float: none;
+	margin: 0 auto;
+}
+
+.circle_yellow {
+	width: 60px;
+	height: 60px;
+	border:19px solid #ffe10b92;
+	position: absolute;
+	top: 620px;
+	left: 415px;
+	border-radius: 40%;
+	z-index: 12;
+	opacity: 0.7;
+}
+
+
+.circle_red {
+	width: 80px;
+    height: 80px;
+    border: 22px solid #b3301392;
+    position: absolute;
+    top: 37%;
+    right: 12%;
+    border-radius: 40%;
+    z-index: 12;
+    opacity: 0.3;
+}
+
+
+
+.circle_blue {
+	width: 60px;
+    height: 60px;
+    border: 19px solid #02ff8b92;
+    position: absolute;
+    top: 120px;
+    right: 737px;
+    border-radius: 40%;
+    z-index: 12;
+    opacity: 0.7;
+}
+
+
+.circle_green {
+	width: 40px;
+    height: 40px;
+    border: 12px solid #00BCD4;
+    position: absolute;
+    top: 326px;
+    left: 200px;
+    border-radius: 40%;
+    z-index: 12;
+    opacity: 0.7;
+}
+
+
+.circle_yellow {
+	width: 60px;
+	height: 60px;
+	border:19px solid #ffe10b92;
+	position: absolute;
+	top: 620px;
+	left: 415px;
+	border-radius: 40%;
+	z-index: 12;
+	opacity: 0.7;
+}
+
+
+.circle_red_below {
+	width: 80px;
+    height: 80px;
+    border: 22px solid #b3301392;
+    position: absolute;
+    top: 37%;
+    right: 12%;
+    border-radius: 40%;
+    z-index: 12;
+    opacity: 0.3;
+}
+
+
+
+.circle_blue_below {
+	width: 60px;
+    height: 60px;
+    border: 19px solid #02ff8b92;
+    position: absolute;
+    top: 120px;
+    right: 737px;
+    border-radius: 40%;
+    z-index: 12;
+    opacity: 0.7;
+}
+
+
+.circle_green_below {
+	width: 40px;
+    height: 40px;
+    border: 12px solid #00BCD4;
+    position: absolute;
+    top: 326px;
+    left: 200px;
+    border-radius: 40%;
+    z-index: 12;
+    opacity: 0.7;
+}
+
+
+.social_wrapper {
+	transform: rotate(-90deg);
+	position: fixed;
+	top: 400px;
+	right: -270px;
+	z-index: 12;
+}
+
+.social_wrapper_bottom{
+
+	top: 42px;
+	position: relative;
+	right: 61px;
+
+}
+
+.social_ul {
+	list-style-type: none;
+	font-family: "Inconsolata", monospace ;
+
+}
+
+.social_ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.resume_wrapper h1 {
+	font-size: 81px;
+	padding-bottom: 50px;
+}
+
+
+
+.resume_wrapper h2 {
+	font-size: 70px;
+	padding-bottom: 25px;
+}
+
+.resume_wrapper ul {
+	list-style-type: none;
+}
+
+.resume_wrapper li {
+	padding: 15px;
+	
+}
+
+.resume_wrapper li span {
+
+	border-bottom: 3px solid #e8c30e;
+	font-size: 15px;
+	padding: 0px 10px 5px 0px;
+	font-family: "Inconsolata", monospace ;
+}
+
+.social_ul li a {
+	
+	padding: 0px 22px 10px 22px;
+}
+
+.gap_high {
+	width: 100%;
+	height: 125px;
+}
+
+.card_wrapper {
+	background-color: #1F1F1F;
+	padding: 36px;
+	min-width: 35%;
+	box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
+}
+
+
+.call_wrapper h1 {
+	font-size: 56px;
+}
+
+.call_wrapper .call {
+	color: #fe9902;
+}
